@@ -1,0 +1,11 @@
+[Unit]
+Description=Mount games drive (/mnt/games)
+
+[Mount]
+What=UUID=87787aca-362d-4eae-9384-d4c2787864f1
+Where=/mnt/games
+Type=ext4
+Options=defaults,exec,rw,noatime
+
+[Install]
+WantedBy=multi-user.target
