@@ -54,6 +54,12 @@ sudo ufw status verbose
 ~~~
 
 
+Mounts
+------
+
+https://github.com/johnlevandowski/cachyos/tree/main/mounts  
+
+
 Packages
 --------
 
@@ -80,7 +86,7 @@ pacman -Qmi
 System Settings
 ---------------
 
-https://github.com/johnlevandowski/dotfiles  
+https://github.com/johnlevandowski/dotfiles#restore-dotfiles-from-git-repository  
 
 Panel > Networks Icon > Enable WiFi = OFF  
 
