@@ -109,7 +109,7 @@ Panel > Networks Icon > Enable WiFi = OFF
 * Power Management > Switch to power profile = Performance  
 * Autostart > delete steam  
 * Session > Ask for confirmatin on shutdown, restart, and logout = OFF  
-* Session > On logih, launch apps that were open = Start with an empty session  
+* Session > On login, launch apps that were open = Start with an empty session  
 
 
 World of Warcraft

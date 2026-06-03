@@ -17,20 +17,15 @@ rclone \
 virt-manager qemu-full libvirt dnsmasq iptables \
 --needed
 
-pacman -R kcalc
-pacman -R partitionmanager
-
-pacman -R cachyos-zsh-config
-pacman -R oh-my-zsh-git
-pacman -R zsh-autosuggestions
-pacman -R zsh-completions
-pacman -R zsh-history-substring-search
-pacman -R zsh-syntax-highlighting
-pacman -R zsh-theme-powerlevel10k
-pacman -R zsh
-
-pacman -R vim
-pacman -R vim-runtime
-
-pacman -R cachyos-micro-settings
-pacman -R micro
+pacman -Qq \
+cachyos-emerald-kde-theme-git \
+cachyos-iridescent-kde \
+cachyos-nord-kde-theme-git \
+cachyos-wallpapers \
+char-white \
+kcalc \
+partitionmanager \
+cachyos-micro-settings micro \
+vim vim-runtime \
+cachyos-zsh-config oh-my-zsh-git zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-syntax-highlighting zsh-theme-powerlevel10k zsh \
+2>/dev/null | pacman -Rns -
