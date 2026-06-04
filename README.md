@@ -13,7 +13,7 @@ BTRFS Snapper Settings
 
 ```
 sudo nano /etc/default/limine
-MAX_SNAPSHOT_ENTRIES=40
+MAX_SNAPSHOT_ENTRIES=auto
 ```
 
 Btrfs Assistant > Snapper Settings  
@@ -145,20 +145,21 @@ http://localhost:631
 Secure Boot
 -----------
 
-### Enable Setup Mode in UEFI BIOS
+### Enable Setup Mode in Gigabyte/Aorus UEFI BIOS
 Secure Boot Mode = Custom  
 Reset to Setup mode  
-it will ask for a confirmation, hit Yes  
-then it will ask whether you wanna reboot without saving, choose No  
+* it will ask for a confirmation, choose Yes  
+* then it will ask whether you wan't to reboot without saving, choose No  
 Expert Key management  
 Factory Key Provision = Disable  
-Save & Exit  
+Save & Exit & Reboot  
 
 ### CachyOS Terminal
 https://wiki.cachyos.org/configuration/secure_boot_setup/  
 Follow Instructions "Installing sbctl and Enrolling Keys"  
 Follow Instructions "Signing the Kernel Image and Boot Manager > Limine"  
-Enable automatic config checksum enrollment in /etc/default/limine  
-Proceed to generate a hash for Limine’s splash image  
+* Enable automatic config checksum enrollment in /etc/default/limine  
+* Proceed to generate a hash for Limine’s splash image  
+* Enroll the config checksum and sign Limine’s EFI binary  
 Reboot - No need to go into BIOS as secure boot should now be enabled (secure boot will stay in custom mode)  
 Follow Instructions "Secure Boot Status Check"  
