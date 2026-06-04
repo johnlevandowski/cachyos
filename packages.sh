@@ -5,6 +5,7 @@ pacman -S \
 cachyos-gaming-applications protonplus \
 cups foomatic-db foomatic-db-engine print-manager system-config-printer \
 distrobox podman podman-compose \
+dmemcg-booster plasma-foreground-booster \
 dust \
 gimp libheif \
 github-cli \

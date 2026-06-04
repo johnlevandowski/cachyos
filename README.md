@@ -57,6 +57,11 @@ sudo ufw status verbose
 Mounts
 ------
 
+```
+git clone https://github.com/johnlevandowski/cachyos.git $HOME/Documents/GitHub/cachyos
+cd $HOME/Documents/GitHub/cachyos/mounts/
+```
+
 https://github.com/johnlevandowski/cachyos/tree/main/mounts  
 
 
@@ -64,7 +69,7 @@ Packages
 --------
 
 ```
-sudo ./packages.sh
+sudo $HOME/Documents/GitHub/cachyos/packages.sh
 ```
 
 ```
