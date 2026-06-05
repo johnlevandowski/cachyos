@@ -4,6 +4,10 @@ Virtual Machine
 https://libvirt.org/daemons.html#switching-to-modular-daemons  
 
 ```
+pacman -S virt-manager qemu-full libvirt dnsmasq iptables
+```
+
+```
 for drv in qemu interface network nodedev nwfilter secret storage
     systemctl unmask virt{$drv}d.service
     systemctl unmask virt{$drv}d{,-ro,-admin}.socket

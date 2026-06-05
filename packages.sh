@@ -14,7 +14,6 @@ libreoffice-fresh \
 plasma-disks \
 qalculate-qt \
 rclone \
-virt-manager qemu-full libvirt dnsmasq iptables \
 --needed
 
 pacman -Qq \
