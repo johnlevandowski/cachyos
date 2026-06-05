@@ -25,7 +25,6 @@ cachyos-wallpapers \
 char-white \
 kcalc \
 partitionmanager \
-cachyos-micro-settings micro \
 vim vim-runtime \
 cachyos-zsh-config oh-my-zsh-git zsh-autosuggestions zsh-completions zsh-history-substring-search zsh-syntax-highlighting zsh-theme-powerlevel10k zsh \
 2>/dev/null | pacman -Rns -

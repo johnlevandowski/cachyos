@@ -35,23 +35,23 @@ Click "Apply systemd changes"
 Updates
 -------
 
-~~~
+```
 sudo timedatectl set-local-rtc 0 --adjust-system-clock
 sudo cachyos-rate-mirrors
 sudo cachy-update
 tldr --update
-~~~
+```
 
 
 Firewall
 --------
 
-~~~
+```
 sudo ufw status verbose
 sudo journalctl -k -r -g "UFW"
 sudo ufw logging off
 sudo ufw status verbose
-~~~
+```
 
 
 Mounts
