@@ -2,7 +2,7 @@
 Description=Mount games drive (/mnt/games)
 
 [Mount]
-What=UUID=87787aca-362d-4eae-9384-d4c2787864f1
+What=UUID=6dca1796-f8cf-4011-8e58-9a46cdc7cb3e
 Where=/mnt/games
 Type=ext4
 Options=defaults,exec,rw,noatime

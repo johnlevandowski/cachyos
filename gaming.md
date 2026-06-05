@@ -2,7 +2,7 @@ Gaming
 ======
 
 ```
-pacman -S cachyos-gaming-applications protonplus dmemcg-booster plasma-foreground-booster lact
+sudo pacman -S cachyos-gaming-applications protonplus dmemcg-booster plasma-foreground-booster lact
 paru -S appimagelauncher
 ```
 

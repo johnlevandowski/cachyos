@@ -76,8 +76,8 @@ sudo $HOME/Documents/GitHub/cachyos/packages.sh
 ```
 
 ```
-mkdir -p /home/john/.local/share/gnucash
-cp /mnt/rpi5/Documents/backup/GnuCash/saved-reports-2.8 /home/john/.local/share/gnucash/  
+mkdir -p /home/john/Documents/gnucash
+cp /mnt/rpi5/Documents/gnucash/finances.gnucash /home/john/Documents/gnucash/
 ```
 
 
