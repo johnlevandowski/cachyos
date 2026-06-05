@@ -2,16 +2,14 @@
 
 pacman -S \
 7zip \
-cachyos-gaming-applications protonplus \
+# cachyos-gaming-applications protonplus dmemcg-booster plasma-foreground-booster lact \
 cups foomatic-db foomatic-db-engine print-manager system-config-printer \
 distrobox podman podman-compose \
-dmemcg-booster plasma-foreground-booster \
 dust \
 gimp libheif \
 github-cli \
 gnome-disk-utility \
 gnucash libdbi-drivers \
-lact \
 libreoffice-fresh \
 plasma-disks \
 qalculate-qt \
