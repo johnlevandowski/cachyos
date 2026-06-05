@@ -117,24 +117,6 @@ Panel > Networks Icon > Enable WiFi = OFF
 * Session > On login, launch apps that were open = Start with an empty session  
 
 
-World of Warcraft
------------------
-
-https://lutris.net/games/battlenet/  
-Place game downloads in directory outside of wine prefix so that lutris installer script can be run again without having to download all games again  
-
-https://lutris.net/games/trade-skill-master/  
-Trade Skill Master > Settings > General > WoW Directory > X drive  
-Trade Skill Master > Settings > General > Run at startup = OFF  
-Lutris > Trade Skill Master > Configure > System options > CLI Mode = OFF  
-Lutris > Add icon > https://x.com/TSMAddon/photo  
-
-https://curseforge.overwolf.com/downloads/curseforge-latest-linux.AppImage  
-
-To reduce VRR flicker it's best to leave the display at it's maximum capable refresh rate and then cap the FPS 4 below that (or lower if that's all the gpu can sustain without wild fluctions that cuase flicker)  
-Low frame compensation only kicks in when the fps drops below the monitors refresh rate floor (48hz)  
-
-
 Printer
 -------
 
@@ -145,30 +127,3 @@ sudo systemctl enable cups.socket
 Settings > Printers > Add  
 Foomatic Brother HL-2240/hl1250 driver for HL-2230  
 http://localhost:631  
-
-
-Secure Boot
------------
-
-### Enable Setup Mode in Gigabyte/Aorus UEFI BIOS
-Secure Boot Mode = Custom  
-Reset to Setup mode  
-
-* it will ask for a confirmation, choose Yes  
-* then it will ask whether you wan't to reboot without saving, choose No  
-
-Expert Key management  
-Factory Key Provision = Disable  
-Save & Exit & Reboot  
-
-### CachyOS Terminal
-https://wiki.cachyos.org/configuration/secure_boot_setup/  
-Follow Instructions "Installing sbctl and Enrolling Keys"  
-Follow Instructions "Signing the Kernel Image and Boot Manager > Limine"  
-
-* Enable automatic config checksum enrollment in /etc/default/limine  
-* Proceed to generate a hash for Limine’s splash image  
-* Enroll the config checksum and sign Limine’s EFI binary  
-
-Reboot - No need to go into BIOS as secure boot should now be enabled (secure boot will stay in custom mode)  
-Follow Instructions "Secure Boot Status Check"  

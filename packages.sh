@@ -2,7 +2,6 @@
 
 pacman -S \
 7zip \
-# cachyos-gaming-applications protonplus dmemcg-booster plasma-foreground-booster lact \
 cups foomatic-db foomatic-db-engine print-manager system-config-printer \
 distrobox podman podman-compose \
 dust \
