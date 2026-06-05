@@ -3,6 +3,8 @@ CachyOS Installation
 
 BIOS > disable secure boot  
 
+Don't close cachyos hello when installing
+
 * Limine
 * BTRFS
 * KDE Plasma
@@ -69,10 +71,12 @@ Packages
 --------
 
 ```
+chmod +x $HOME/Documents/GitHub/cachyos/packages.sh
 sudo $HOME/Documents/GitHub/cachyos/packages.sh
 ```
 
 ```
+mkdir -p /home/john/.local/share/gnucash
 cp /mnt/rpi5/Documents/backup/GnuCash/saved-reports-2.8 /home/john/.local/share/gnucash/  
 ```
 
@@ -82,7 +86,6 @@ AUR Packages
 
 ```
 paru -S appimagelauncher
-paru -S github-desktop-plus-bin
 
 pacman -Qmi
 ```
@@ -93,6 +96,7 @@ System Settings
 
 https://github.com/johnlevandowski/dotfiles#restore-dotfiles-from-git-repository  
 
+Panel > Show Panel Configuration > Panel Height = 50  
 Panel > Networks Icon > Enable WiFi = OFF  
 
 * Mouse & Touchpad > Pointer Speed = 1.00  

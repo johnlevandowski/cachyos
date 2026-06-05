@@ -6,7 +6,7 @@ cups foomatic-db foomatic-db-engine print-manager system-config-printer \
 distrobox podman podman-compose \
 dust \
 gimp libheif \
-github-cli \
+github-cli github-desktop \
 gnome-disk-utility \
 gnucash libdbi-drivers \
 libreoffice-fresh \

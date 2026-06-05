@@ -26,5 +26,5 @@ Follow Instructions "Signing the Kernel Image and Boot Manager > Limine"
 * Proceed to generate a hash for Limine’s splash image  
 * Enroll the config checksum and sign Limine’s EFI binary  
 
-Reboot - No need to go into BIOS as secure boot should now be enabled (secure boot will stay in custom mode)  
+Reboot - Enable secure boot (secure boot will stay in custom mode)  
 Follow Instructions "Secure Boot Status Check"  
