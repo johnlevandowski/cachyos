@@ -71,13 +71,13 @@ Packages
 --------
 
 ```
-chmod +x $HOME/Documents/GitHub/cachyos/packages.sh
-sudo $HOME/Documents/GitHub/cachyos/packages.sh
+sudo /mnt/rpi5/Documents/Linux/cachyos/packages.sh
 ```
 
 ```
 mkdir -p /home/john/Documents/gnucash
 cp /mnt/rpi5/Documents/gnucash/finances.gnucash /home/john/Documents/gnucash/
+rclone config touch
 ```
 
 
@@ -85,8 +85,6 @@ AUR Packages
 ------------
 
 ```
-paru -S appimagelauncher
-
 pacman -Qmi
 ```
 
@@ -98,6 +96,7 @@ https://github.com/johnlevandowski/dotfiles#restore-dotfiles-from-git-repository
 
 Panel > Show Panel Configuration > Panel Height = 50  
 Panel > Networks Icon > Enable WiFi = OFF  
+Panel > Bluetooth Icon > Enable Bluetooth = OFF  
 
 * Mouse & Touchpad > Pointer Speed = 1.00  
 * Mouse & Touchpad > Enable pointer Acceleration = OFF  
