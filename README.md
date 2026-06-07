@@ -56,6 +56,23 @@ sudo ufw status verbose
 ```
 
 
+Disable NetworkManager connectivity checking
+--------------------------------------------
+
+```
+sudo micro /etc/NetworkManager/conf.d/20-connectivity.conf
+```
+
+```
+[connectivity]
+enabled=false
+```
+
+```
+sudo systemctl reload NetworkManager
+```
+
+
 Mounts
 ------
 

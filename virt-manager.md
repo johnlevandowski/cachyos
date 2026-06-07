@@ -1,6 +1,9 @@
 Virtual Machine
 ===============
 
+Install qemu virtualization
+---------------------------
+
 https://libvirt.org/daemons.html#switching-to-modular-daemons  
 
 ```
@@ -23,13 +26,14 @@ end
 ```
 
 ```
-# Add your user to the libvirt and kvm groups
-sudo usermod -aG libvirt $(whoami)
-sudo usermod -aG kvm $(whoami)
+sudo usermod -aG kvm,libvirt $(whoami)
 ```
 
+
+Test qemu connection
+--------------------
+
 ```
-# Test
 virsh -c qemu:///system
 virsh -c qemu:///session
 ```
