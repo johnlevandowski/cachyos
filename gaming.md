@@ -2,8 +2,8 @@ Gaming
 ======
 
 ```
-sudo pacman -S cachyos-gaming-applications protonplus dmemcg-booster plasma-foreground-booster lact
-paru -S curseforge
+sudo pacman -S cachyos-gaming-applications protonplus lact --needed
+paru -S curseforge --needed
 ```
 
 World of Warcraft
