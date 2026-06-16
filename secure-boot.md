@@ -28,3 +28,14 @@ Follow Instructions "Signing the Kernel Image and Boot Manager > Limine"
 
 Reboot - Enable secure boot (secure boot will stay in custom mode)  
 Follow Instructions "Secure Boot Status Check"  
+
+
+IMPORTANT
+---------
+
+After any future changes to /boot/limine.conf run:
+
+```
+sudo limine-enroll-config
+sudo limine-update
+```
